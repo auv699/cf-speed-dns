@@ -94,17 +94,15 @@ def write_files(ips):
 </head>
 <body>
     <h1>我的 Cloudflare 优选 IP</h1>
-    <p>域名：{escape(CF_DNS_NAME)}</p>
     <p>更新时间：{now}</p>
 
     <table>
         <thead>
             <tr>
-                <th>序号</th>
-                <th>IP 地址</th>
-                <th>DNS 名称</th>
-                <th>更新时间</th>
-            </tr>
+    <th>序号</th>
+    <th>IP 地址</th>
+    <th>更新时间</th>
+</tr>
         </thead>
         <tbody>
             {rows}
